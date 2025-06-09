@@ -4,7 +4,7 @@
 		<title>People Picnic - Best Picnic Blanket Reviews</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Honest reviews of the best picnic blankets with Rakuten affiliate links for great deals">
+		<meta name="description" content="Honest reviews of the best picnic blankets with Avin affiliate links for great deals">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
 			.product-card {
@@ -77,7 +77,7 @@
 								<article class="box post">
 									<header>
 										<h2>Best Picnic Blankets of 2024</h2>
-										<p>Curated selection with Rakuten deals</p>
+										<p>Curated selection with Avin deals</p>
 									</header>
 									
 									<!-- Editor's Choice -->
@@ -199,7 +199,7 @@
 									</div>
 									
 									<div class="affiliate-disclaimer">
-										*We earn a commission from Rakuten for qualifying purchases. Prices shown include any available Rakuten cashback offers.
+										*We earn a commission from Avin for qualifying purchases. Prices shown include any available Avin cashback offers.
 									</div>
 								</article>
 
@@ -282,21 +282,21 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!-- Rakuten Tracking (Add your actual tracking code) -->
+			<!-- Avin Tracking (Add your actual tracking code) -->
 			<script>
-				// Replace with your Rakuten affiliate tracking code
-				function trackRakutenClick(productId) {
-					console.log('Tracking Rakuten click for:', productId);
+				// Replace with your Avin affiliate tracking code
+				function trackAvinClick(productId) {
+					console.log('Tracking Avin click for:', productId);
 					// Implementation example:
 					// window.location.href = `https://click.linksynergy.com/deeplink?id=YOURID&mid=12345&murl=${encodeURIComponent(productURL)}`;
 				}
 				
-				// Attach click handlers to all Rakuten links
+				// Attach click handlers to all Avin links
 				document.querySelectorAll('a[href*="rei.com"]').forEach(link => {
 					link.addEventListener('click', function(e) {
 						e.preventDefault();
 						const productName = this.closest('.product-card').querySelector('h3').textContent;
-						trackRakutenClick(productName);
+						trackAvinClick(productName);
 						window.location.href = this.href; // Proceed to REI after tracking
 					});
 				});
